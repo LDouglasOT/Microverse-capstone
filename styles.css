@@ -6,6 +6,15 @@
 }
 
 @media screen and (min-width: 800px) {
+  @font-face {
+    font-family: Lato;
+    src: url("./Assets/Fonts/Lato2OFL/Lato-Black.ttf");
+  }
+
+  .title {
+    color: #f04732;
+  }
+
   .headding {
     display: none;
     font-weight: 100;
@@ -216,6 +225,7 @@
     height: 130px;
     width: 190px;
     margin: 0 10px;
+    object-fit: cover;
   }
 
   .partners {
@@ -340,7 +350,8 @@
 
   .intro-sectioned {
     background-repeat: no-repeat;
-    height: 40vh;
+    display: flex;
+    justify-content: center;
     padding: 63px 110px;
     align-items: center;
     display: flex;
@@ -354,6 +365,8 @@
     background-color: white;
     line-height: 25px;
     color: rgb(59, 59, 59);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .intro-sectioned-h3 {
@@ -379,6 +392,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .uganda {
@@ -406,6 +421,12 @@
     justify-content: center;
     background-image: url('./Assets/Images/desktop.png');
     border: 2px solid gray;
+  }
+  .kiwanuka{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -701,10 +722,6 @@
     color: rgb(59, 59, 59);
   }
 
-  .intro-wrappers {
-    width: 70vw;
-  }
-
   .intro-wrappers-h3 {
     color: rgb(240, 71, 50);
     font-size: 20px;
@@ -758,14 +775,6 @@
     padding: 0 30px;
   }
 
-  .intro-sectioned {
-    background-repeat: no-repeat;
-    height: 50vh;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-
   .intro-sectioned p {
     text-decoration: dashed;
     padding: 20px;
@@ -776,10 +785,10 @@
 
   .intro-sectioned span {
     text-decoration: dashed;
-    padding: 20px;
     background-color: white;
     line-height: 25px;
     color: rgb(59, 59, 59);
+    text-align: center;
   }
 
   .kingsman {
@@ -789,6 +798,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .uganda {
@@ -824,5 +837,20 @@
     color: gray;
     font-size: 27px;
     flex: auto;
+  }
+  .jaja{
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .kiwanuka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
