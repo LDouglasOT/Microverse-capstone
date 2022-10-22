@@ -354,7 +354,6 @@
     justify-content: center;
     padding: 63px 110px;
     align-items: center;
-    display: flex;
     flex-direction: column;
   }
 
@@ -422,7 +421,8 @@
     background-image: url('./Assets/Images/desktop.png');
     border: 2px solid gray;
   }
-  .kiwanuka{
+
+  .kiwanuka {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -838,7 +838,8 @@
     font-size: 27px;
     flex: auto;
   }
-  .jaja{
+
+  .jaja {
     height: 80px;
     padding: 10px;
     display: flex;
@@ -847,7 +848,8 @@
     align-items: center;
     margin-top: 20px;
   }
-  .kiwanuka{
+
+  .kiwanuka {
     display: flex;
     flex-direction: column;
     align-items: center;
