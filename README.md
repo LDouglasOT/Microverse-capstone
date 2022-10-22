@@ -4,7 +4,7 @@
 
 > This project is a portifolio page given as a task in the first module
 # Live Demo
-[Live Demo](https://ldouglasot.github.io/)
+[Live Demo](https://ldouglasot.github.io/Microverse-capstone/)
 ## Built With
 
 - Html and Css
@@ -43,6 +43,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to Microverse for the great exercise
+- Hat tip to Cindy  Shin who crafted this great design
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.

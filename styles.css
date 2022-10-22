@@ -9,6 +9,8 @@
   @font-face {
     font-family: Lato;
     src: url("./Assets/Fonts/Lato2OFL/Lato-Black.ttf");
+    font-family: Cocogoose;
+    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
   }
 
   .title {
@@ -114,6 +116,7 @@
     color: rgb(240, 71, 50);
     font-size: 30px;
     margin: 0;
+    text-align: start;
     padding: 0;
   }
 
@@ -122,6 +125,30 @@
     font-size: 35px;
     font-weight: 100;
     margin: 20px 0;
+    font-weight: bolder;
+    text-align: start;
+    font-family: Cocogoose;
+    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
+  }
+
+  .intro-wrapper-h1 {
+    color: rgb(240, 71, 50);
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 0;
+    font-weight: bolder;
+    text-align: center;
+    font-family: Cocogoose;
+    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
+  }
+
+  .intro-wrapper-h1-about {
+    color: rgb(240, 71, 50);
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 0;
+    font-weight: bolder;
+    text-align: center;
   }
 
   .tagline {
@@ -144,6 +171,7 @@
     color: white;
     align-items: center;
     padding: 10px;
+    background-color: #3f4148;
   }
 
   .program-wrapper {
@@ -161,7 +189,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #3f4148;
+    background-color: #53555a;
     margin: 2px;
     justify-content: center;
     color: rgb(236, 236, 236);
@@ -326,12 +354,12 @@
   .intro-sections {
     background-image: url(./Assets/Images/desktop.png);
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 72vh;
     padding: 63px 110px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 100vw;
   }
 
   .intro-sections p {
@@ -428,9 +456,21 @@
     justify-content: center;
     align-items: center;
   }
+
+  #part {
+    background-color: #31343a;
+    color: white;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  @font-face {
+    font-family: Lato;
+    src: url("./Assets/Fonts/Lato2OFL/Lato-Black.ttf");
+    font-family: Cocogoose;
+    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
+  }
   .topcontact {
     display: none;
   }
@@ -455,6 +495,17 @@
     font-size: 35px;
     font-weight: 100;
     margin: 20px 0;
+    font-family: Cocogoose;
+  }
+
+  .intro-wrapper-h1 {
+    color: rgb(240, 71, 50);
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 0;
+    text-align: center;
+    font-family: Cocogoose;
+    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
   }
 
   .tagline {
@@ -736,6 +787,7 @@
     font-weight: 100;
     margin: 10px 0;
     text-align: center;
+    font-family: Cocogoose;
   }
 
   .intro-wrapper-h4 {
@@ -854,5 +906,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  #part {
+    background-color: #31343a;
   }
 }
