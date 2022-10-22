@@ -9,8 +9,6 @@
   @font-face {
     font-family: Lato;
     src: url("./Assets/Fonts/Lato2OFL/Lato-Black.ttf");
-    font-family: Cocogoose;
-    src: url("./Assets/Fonts/Cocogoose\ Pro-trial.ttf");
   }
 
   @font-face {
@@ -131,7 +129,7 @@
     font-weight: 100;
     margin: 20px 0;
     text-align: start;
-    font-family: Cocogoose;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .intro-wrapper-h1 {
@@ -497,7 +495,7 @@
     font-size: 25px;
     font-weight: 100;
     margin: 20px 0;
-    font-family: Cocogoose;
+    font-family: "Cocogoose", sans-serif;
   }
 
   .intro-wrapper-h1 {
