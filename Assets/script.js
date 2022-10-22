@@ -39,20 +39,20 @@ speakers=[
 
 const culture=[
 {
-    "img":"https://img.icons8.com/material/30/f04732/filled-trash.png",
-    "theme":"Cultural Quiz",
+    "img":"https://img.icons8.com/office/40/000000/maracas.png",
+    "theme":"Cultural MUsic",
     "tag":"bright future putting the king fast protected by his Kingsmen bright future putting the king fast protected by his Kingsmen"
 },{
-    "img":"https://img.icons8.com/material/30/f04732/filled-trash.png",
-    "theme":"Cultural Quiz",
+    "img":"https://img.icons8.com/office/40/000000/maracas.png",
+    "theme":"Cultural Dance",
     "tag":"bright future putting the king fast protected by his Kingsmen bright future putting the king fast protected by his Kingsmen"
 },{
-    "img":"https://img.icons8.com/material/30/f04732/filled-trash.png",
-    "theme":"Cultural Quiz",
+    "img":"https://img.icons8.com/office/40/000000/mate.png",
+    "theme":"Cultural Food staff",
     "tag":"bright future putting the king fast protected by his Kingsmen bright future putting the king fast protected by his Kingsmen"
 },{
-    "img":"https://img.icons8.com/material/30/f04732/filled-trash.png",
-    "theme":"Cultural Quiz",
+    "img":"https://img.icons8.com/office/40/000000/seed-of-life.png",
+    "theme":"Cultural Knowledge",
     "tag":"bright future putting the king fast protected by his Kingsmen bright future putting the king fast protected by his Kingsmen"
 }
 ]
